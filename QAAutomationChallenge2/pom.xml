@@ -3,23 +3,17 @@
   <groupId>QAAutomationChallenge2</groupId>
   <artifactId>QAAutomationChallenge2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>QAAutomationChallenge2</name>
-  <description>QAAutomationChallenge2</description>
-  <dependencies>
-        <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>2.53.0</version>
-    </dependency>  
-        <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>htmlunit-driver</artifactId>
-        <version>2.21</version>
-    </dependency>  
-        <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-firefox-driver</artifactId>
-        <version>2.53.0</version>
-    </dependency>  
-    </dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
