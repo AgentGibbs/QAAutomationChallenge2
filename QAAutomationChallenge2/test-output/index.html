@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Christian Gibbs\AppData\Local\Temp\testng-eclipse-1449252079\testng-customsuite.xml</span>
+                    <span>C:\Users\Christian Gibbs\AppData\Local\Temp\testng-eclipse--1995526246\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -127,27 +127,8 @@
                   <a name="verifyChrome">
                   </a> <!-- verifyChrome -->
                   <span class="method-name">verifyChrome</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=51.0.2704.106)
-  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 7 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
-System info: host: &apos;DESKTOP-P610HGG&apos;, ip: &apos;10.1.10.146&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\CHRIST~1\AppData\Local\Temp\scoped_dir2556_19419}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: de2f8f2e30571ee2b60be75a568d41c2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:150)
-	at testPackage.QAAutomation2.verifyElement(QAAutomation2.java:51)
-	at testPackage.QAAutomation2.verifyChrome(QAAutomation2.java:90)
+                  <div class="stack-trace">java.lang.AssertionError
+	at testPackage.QAAutomation2.verifyChrome(QAAutomation2.java:120)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -181,7 +162,7 @@ Session ID: de2f8f2e30571ee2b60be75a568d41c2
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Christian Gibbs\AppData\Local\Temp\testng-eclipse-1449252079\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Christian Gibbs\AppData\Local\Temp\testng-eclipse--1995526246\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -234,12 +215,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyChrome')
 data.setCell(0, 2, 'testPackage.QAAutomation2')
-data.setCell(0, 3, 8327);
+data.setCell(0, 3, 23577);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -250,6 +231,36 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyChrome</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Launching ChromDriver tests</span>
+                <span class="reporter-method-output">Verifying Menu Item: PLAN YOUR TRIP
+Expected web page: https://www.skiutah.com/plan
+Actual web page: https://www.skiutah.com/members/listing
+FAIL</span>
+                <span class="reporter-method-output">Verifying Menu Item: RESORTS & SNOW
+Expected web page: https://www.skiutah.com/resorts
+Actual web page: https://www.skiutah.com/snowreport
+FAIL</span>
+                <span class="reporter-method-output">Verifying Menu Item: STORIES
+Expected web page: https://www.skiutah.com/skiutah-blog
+Actual web page: https://www.skiutah.com/blog
+FAIL</span>
+                <span class="reporter-method-output">Verifying Menu Item: DEALS
+Expected web page: https://www.skiutah.com/deals
+Actual web page: https://www.skiutah.com/deals-search
+FAIL</span>
+                <span class="reporter-method-output">Verifying Menu Item: PASSES
+Expected web page: https://www.skiutah.com/passes
+Actual web page: https://www.skiutah.com/passes/resort-season-passes
+FAIL</span>
+                <span class="reporter-method-output">Verifying Menu Item: EXPLORE
+Expected web page: https://www.skiutah.com/explore
+Actual web page: https://www.skiutah.com/explore/utah-regions-101
+FAIL</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
